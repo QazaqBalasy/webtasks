@@ -1,0 +1,10 @@
+table#pic{
+    width: 100%;
+}
+img{
+    width: 100%;
+}
+td{
+    width: 33%;
+    text-transform: capitalize;
+}
