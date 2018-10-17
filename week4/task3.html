@@ -1,0 +1,134 @@
+<!DOCTYPE html>
+<html>
+
+  <head>
+	<style>
+body{
+  align-self: center;
+  position: relative;
+}
+.overlay{
+  background-color: rgba(0.1,0.1,0.1,0);
+}
+.alert{
+  position: fixed;
+  margin-top: 10%;
+  margin-left: 33%;
+  border: 3px solid red; 
+  border-radius: 10px;
+  background-color: white;
+  z-index: 1;
+
+}
+section{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    flex-flow: row wrap;
+    margin-left: 30%;
+    width: 40%;
+}
+.card{
+      position: relative;
+      padding: 0;
+}
+.title{
+    left: 0;
+    top: 0;
+    position:absolute;
+  
+    background-color: blue;
+}
+.price{
+  padding: 0;
+}
+
+body {
+  margin: 0;
+}
+nav a {
+  padding: 20px;
+  text-decoration: none;
+  font-size: 20px;
+  border:2px solid red;
+  border-width: 0px 2px 0px 2px;  
+  border-collapse: collapse;
+  
+}
+.card a{
+  top: 0;
+  right: 0;
+  position: absolute;
+}
+  nav{
+  margin-left: 35%;
+}
+header{
+  background-color: black;
+}
+	</style>
+  </head>
+
+  <body>
+    <div class="overlay">
+      <div class="alert">
+        <h1>Welcome to Wheels.kz</h1>
+        <p>If you have any questions, please contact us by no: 87017023535</p>
+        <p>The best cars with the best prices are present on our website and application</p>
+      </div>
+    </div>
+    <header>
+      <nav>
+        <a href="#">Home</a>
+        <a href="#">Prices</a>
+        <a href="#">Contacts</a>
+        <a href="#">Opportunities</a>
+      </nav>
+    </header>
+    <section>
+      <div class="card first">
+        <img src="http://via.placeholder.com/150x150"/>
+        <div class="price">10.000 $</div>
+        <div class="title">BMW X6</div>
+        <a href="#"><img width="30px" class="icon" src="https://image.flaticon.com/icons/png/512/2/2772.png"/></a>
+      </div>
+      
+      <div class="card">
+        <img src="http://via.placeholder.com/150x150"/>
+        <div class="price">10.000 $</div>
+        <div class="title">Mercedes C100</div>
+        <a href="#"><img width="30px" class="icon" src="https://image.flaticon.com/icons/png/512/2/2772.png"/></a>
+      </div>
+      
+      
+      <div class="card">
+        <img src="http://via.placeholder.com/150x150"/>
+        <div class="price">10.000 $</div>
+        <div class="title">BMW X5</div>
+        <a href="#"><img width="30px" class="icon" src="https://image.flaticon.com/icons/png/512/2/2772.png"/></a>
+      </div>
+      
+      <div class="card">
+        <img src="http://via.placeholder.com/150x150"/>
+        <div class="price">10.000 $</div>
+        <div class="title">Mitsibushi Outlander</div>
+        <a href="#"><img width="30px" class="icon" src="https://image.flaticon.com/icons/png/512/2/2772.png"/></a>
+      </div>
+      
+      <div class="card">
+        <img src="http://via.placeholder.com/150x150"/>
+        <div class="price">10.000 $</div>
+        <div class="title">Audi A8</div>
+        <a href="#"><img width="30px" class="icon" src="https://image.flaticon.com/icons/png/512/2/2772.png"/></a>
+      </div>
+      
+      <div class="card">
+        <img src="http://via.placeholder.com/150x150"/>
+        <div class="price">10.000 $</div>
+        <div class="title">BMW X6</div>
+        <a href="#"><img width="30px" class="icon" src="https://image.flaticon.com/icons/png/512/2/2772.png"/></a>
+      </div>
+    </section>
+  </body>
+
+</html>
